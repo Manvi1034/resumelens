@@ -1,0 +1,58 @@
+skill,category,aliases
+Python,Programming,python3
+Java,Programming,
+JavaScript,Programming,
+C++,Programming,cpp
+C#,Programming,csharp|c sharp
+SQL,Databases,
+MySQL,Databases,
+PostgreSQL,Databases,postgres
+MongoDB,Databases,mongo
+SQLite,Databases,
+HTML,Web Development,html5
+CSS,Web Development,css3
+React,Web Development,reactjs|react.js
+Node.js,Web Development,nodejs|node js
+REST API,Web Development,rest apis|restful api|restful apis
+FastAPI,Web Development,
+Flask,Web Development,
+Django,Web Development,
+Pandas,Data Analytics,
+NumPy,Data Analytics,
+Matplotlib,Data Analytics,
+Statistics,Data Analytics,statistical analysis
+Data Visualization,Data Analytics,data visualisation|data viz
+Machine Learning,AI/ML,ml
+scikit-learn,AI/ML,sklearn|scikit learn
+Deep Learning,AI/ML,neural networks
+TensorFlow,AI/ML,
+PyTorch,AI/ML,
+NLP,AI/ML,natural language processing
+Transformers,AI/ML,
+Hugging Face,AI/ML,huggingface
+spaCy,AI/ML,
+NLTK,AI/ML,
+LLM,AI/ML,llms|large language model|large language models
+RAG,AI/ML,retrieval augmented generation|retrieval-augmented generation
+Prompt Engineering,AI/ML,
+LangChain,AI/ML,
+Vector Databases,AI/ML,vector database|vector db
+OpenCV,AI/ML,opencv-python|cv2
+CNN,AI/ML,convolutional neural network|convolutional neural networks
+YOLO,AI/ML,yolov5|yolov8
+Image Processing,AI/ML,
+MLflow,AI/ML,
+AWS,Cloud & DevOps,amazon web services
+Azure,Cloud & DevOps,microsoft azure
+Google Cloud,Cloud & DevOps,gcp|google cloud platform
+Docker,Cloud & DevOps,
+Kubernetes,Cloud & DevOps,k8s
+CI/CD,Cloud & DevOps,cicd|continuous integration|continuous delivery|continuous deployment|travisci|github actions|jenkins
+Git,Tools,
+GitHub,Tools,
+Linux,Tools,
+Excel,Tools,microsoft excel|ms excel
+Power BI,Tools,powerbi|power-bi
+Tableau,Tools,
+Jupyter,Tools,jupyter notebook|jupyter notebooks
+Streamlit,Web Development,

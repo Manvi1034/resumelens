@@ -1,0 +1,51 @@
+skill,stage,weeks,topics,practice_project
+Python,1,2,Variables and data types|Loops and functions|Lists and dictionaries|Reading and writing files|Writing small scripts,Build a command line expense tracker that saves its data to a file
+SQL,1,2,SELECT and WHERE|JOINs|GROUP BY and aggregates|Subqueries|Designing simple tables,Design a small library database and write ten queries that answer real questions
+Excel,1,1,Formulas and lookups|Pivot tables|Charts|Cleaning messy data,Clean a messy public dataset and summarise it with a pivot table and charts
+Git,1,1,Commits and history|Branches and merging|Resolving conflicts|Working with remotes,Put one of your projects under Git and make ten meaningful commits across two branches
+GitHub,1,1,Creating a repository|Pushing and pulling|Pull requests|Writing a good README,Publish a project on GitHub with a clear README and screenshots
+HTML,1,1,Page structure and semantic tags|Links images and lists|Forms|Accessibility basics,Build a single page personal portfolio with plain HTML
+CSS,1,1,Selectors and the box model|Flexbox and grid|Responsive layout|Colours and typography,Style your portfolio page so it works on both phone and laptop screens
+JavaScript,1,3,Variables and functions|Arrays and objects|DOM manipulation|Events|Fetching data with fetch and promises,Build a to-do app that saves its tasks and fetches a quote from a public API
+Linux,1,1,Navigating the file system|File permissions|Pipes and grep|Shell scripting basics,Write a shell script that backs up a folder and logs what it did
+Statistics,1,2,Mean median and standard deviation|Probability basics|Distributions|Hypothesis testing|Correlation,Analyse a public dataset and write a one page summary of what the numbers do and do not show
+Jupyter,1,1,Cells and kernels|Markdown notes|Running analysis step by step|Exporting notebooks,Turn one analysis into a clean notebook that someone else can read and rerun
+Pandas,2,2,DataFrames and Series|Selecting and filtering|Cleaning missing values|GroupBy and merging|Reading CSV files,Clean and analyse a real CSV dataset and answer five questions with Pandas
+NumPy,2,1,Arrays and shapes|Indexing and slicing|Vectorised operations|Random numbers,Rewrite a slow Python loop using NumPy and compare the speed
+Matplotlib,2,1,Line and bar charts|Labels and titles|Subplots|Saving figures,Draw four charts from one dataset and save them as images
+Data Visualization,2,1,Choosing the right chart|Colour and clarity|Telling a story with data|Avoiding misleading charts,Build a one page visual summary of a dataset for a non technical reader
+Power BI,2,2,Importing data|Data modelling basics|Building visuals|DAX basics|Publishing a dashboard,Create a sales dashboard from a public dataset with at least four visuals
+Tableau,2,2,Connecting to data|Dimensions and measures|Charts and filters|Dashboards,Publish a dashboard on Tableau Public using an open dataset
+MySQL,2,1,Installing and connecting|Creating tables and keys|Inserting and querying data|Using MySQL from Python,Store the data from a small project in MySQL and query it from Python
+PostgreSQL,2,1,Installing and connecting|Data types and constraints|Indexes|Using PostgreSQL from Python,Move a small project from files to PostgreSQL and query it from code
+MongoDB,2,1,Documents and collections|CRUD operations|Querying and indexes|Using MongoDB from Python or Node.js,Store notes in MongoDB and build simple add and search features
+REST API,2,1,HTTP methods and status codes|JSON|Designing endpoints|Testing with Postman or curl|Authentication basics,Design and document a small API with five endpoints
+Flask,2,1,Routes and templates|Forms and requests|Connecting a database|Returning JSON,Build a small notes web app with Flask and a database
+Django,2,2,Project and app structure|Models and the admin|Views and templates|Forms and authentication,Build a blog with user accounts using Django
+FastAPI,2,1,Path and query parameters|Request and response models|Automatic documentation|Serving a model prediction,Wrap a trained model in a FastAPI endpoint and test it from the docs page
+Node.js,2,2,Modules and npm|Express routes|Working with JSON|Connecting a database|Environment variables,Build a REST API for a small app with Node.js and Express
+React,2,3,Components and props|State and hooks|Handling events|Fetching data|Routing,Build a small dashboard that loads data from an API
+Machine Learning,2,3,Supervised and unsupervised learning|Train test split|Regression and classification|Overfitting and evaluation metrics|Feature engineering,Predict a value from a public dataset and report the results honestly with a clear metric
+scikit-learn,2,2,Pipelines and preprocessing|Common models|Cross validation|Hyperparameter tuning|Saving a model,Compare three models on one dataset using cross validation
+NLP,2,2,Tokenisation and stop words|Bag of words and TF-IDF|Text classification|Named entities,Build a text classifier for reviews or short messages
+NLTK,2,1,Tokenising and stemming|Stop words|Part of speech tagging|Simple sentiment analysis,Analyse the sentiment of reviews using NLTK
+spaCy,2,1,Pipelines and tokens|Named entity recognition|Rule based matching|Custom components,Extract names and organisations from a set of articles with spaCy
+OpenCV,2,2,Reading and showing images|Colour spaces|Filters and edges|Contours|Video capture,Build a small program that detects edges or faces in a webcam stream
+Image Processing,2,1,Pixels and channels|Resizing and cropping|Thresholding|Filtering and noise,Write a script that cleans up and enhances a folder of photos
+Deep Learning,3,3,Neurons and layers|Backpropagation and gradient descent|Loss functions|Regularisation|Training and validation curves,Train a small neural network to classify handwritten digits
+PyTorch,3,2,Tensors|Autograd|Building a model with nn.Module|Training loops|Using a GPU or Colab,Train an image classifier in PyTorch and plot its learning curves
+TensorFlow,3,2,Tensors and Keras layers|Building and compiling a model|Training and callbacks|Saving and loading models,Train a small Keras model and export it for later use
+Docker,3,1,Images and containers|Writing a Dockerfile|Volumes and ports|Docker Compose,Containerise one of your apps and run it with a single command
+CI/CD,3,1,What a pipeline does|Running tests automatically|GitHub Actions basics|Automatic deployment,Add a GitHub Actions workflow that runs your tests on every push
+AWS,3,2,IAM and accounts|EC2 and S3|Deploying a simple app|Cost awareness,Deploy a small web app on the AWS free tier and shut it down afterwards
+CNN,4,2,Convolution and pooling|Common architectures|Data augmentation|Transfer learning,Fine tune a pretrained network to classify your own set of images
+YOLO,4,1,How object detection works|Using a pretrained YOLO model|Labelling data|Evaluating detections,Detect objects in a short video using a pretrained YOLO model
+Transformers,4,2,Attention in simple terms|Encoder and decoder models|Tokenisers|Fine tuning,Fine tune a small transformer on a text classification task
+Hugging Face,4,1,Model hub and pipelines|Tokenisers and datasets|Fine tuning with Trainer|Sharing a model,Run three different pretrained models through the pipeline interface and compare them
+LLM,4,2,How large language models work|Prompts and context windows|Calling a model through an API|Limits and hallucinations,Build a small assistant that answers questions through an LLM API
+Prompt Engineering,4,1,Clear instructions and examples|Few shot prompting|Structured outputs|Testing and comparing prompts,Write and test five prompts for one task and record which works best and why
+Kubernetes,4,2,Pods and deployments|Services|Config and secrets|Scaling,Run a containerised app on a local cluster and scale it to three replicas
+MLflow,4,1,Tracking experiments|Logging metrics and parameters|Model registry|Comparing runs,Track five training runs of one model and compare them in the MLflow interface
+RAG,5,2,Embeddings and chunking|Vector search|Retrieval and prompting|Evaluating answers,Build a question answering tool over your own documents
+LangChain,5,1,Chains and prompts|Document loaders|Memory|Agents and tools,Build a document chat app with LangChain
+Vector Databases,5,1,Embeddings|Similarity search|Indexing|Filtering with metadata,Store embeddings of your notes in a vector database and search them

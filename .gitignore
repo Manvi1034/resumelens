@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets (never upload these)
+.env
+.streamlit/secrets.toml
+
+# Generated reports and private files
+reports/*.pdf
+sample_resumes/private/
+docs/postings/
+
+# Editor and OS files
+.vscode/
+.DS_Store
+*.log
