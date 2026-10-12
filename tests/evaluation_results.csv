@@ -1,0 +1,23 @@
+Test Resume,Format,Expected Top Role,Actual Top Role,Top Score,Role Check,Skill Precision,Skill Recall,False Positives,Missed Skills,Comments
+data_analyst,DOCX,Data Analyst,Data Analyst,100,PASS,1.0,1.0,,,Clear data analyst profile
+data_analyst,PDF,Data Analyst,Data Analyst,100,PASS,1.0,1.0,,,Clear data analyst profile
+ml_engineer,DOCX,Machine Learning Engineer,Machine Learning Engineer,92,PASS,1.0,1.0,,,Clear ML engineer profile
+ml_engineer,PDF,Machine Learning Engineer,Machine Learning Engineer,92,PASS,1.0,1.0,,,Clear ML engineer profile
+nlp_engineer,DOCX,NLP Engineer,NLP Engineer,91,PASS,1.0,1.0,,,Clear NLP profile
+nlp_engineer,PDF,NLP Engineer,NLP Engineer,91,PASS,1.0,1.0,,,Clear NLP profile
+cv_engineer,DOCX,Computer Vision Engineer,Computer Vision Engineer,91,PASS,1.0,1.0,,,Clear computer vision profile
+cv_engineer,PDF,Computer Vision Engineer,Computer Vision Engineer,91,PASS,1.0,1.0,,,Clear computer vision profile
+fullstack,DOCX,Full Stack Developer,Full Stack Developer,89,PASS,1.0,1.0,,,Clear full stack profile
+fullstack,PDF,Full Stack Developer,Full Stack Developer,89,PASS,1.0,1.0,,,Clear full stack profile
+ai_engineer,DOCX,AI Engineer,AI Engineer,91,PASS,1.0,1.0,,,Clear AI engineer profile
+ai_engineer,PDF,AI Engineer,AI Engineer,91,PASS,1.0,1.0,,,Clear AI engineer profile
+fresher_sparse,DOCX,ANY,Full Stack Developer,15,n/a,1.0,1.0,,,Very few skills; every score should stay low
+fresher_sparse,PDF,ANY,Full Stack Developer,15,n/a,1.0,1.0,,,Very few skills; every score should stay low
+tricky_wording,DOCX,ANY,Data Scientist,43,n/a,0.7,1.0,"Excel, Java, React",,Hyphenated skill names; the words excel and react used as ordinary verbs; negation (not Java)
+tricky_wording,PDF,ANY,Data Scientist,43,n/a,0.7,1.0,"Excel, Java, React",,Hyphenated skill names; the words excel and react used as ordinary verbs; negation (not Java)
+keyword_stuffed,DOCX,ANY,Machine Learning Engineer,73,n/a,1.0,1.0,,,Only a pile of repeated keywords; extraction is right but the score is easy to inflate
+keyword_stuffed,PDF,ANY,Machine Learning Engineer,73,n/a,1.0,1.0,,,Only a pile of repeated keywords; extraction is right but the score is easy to inflate
+ml_engineer_personal,DOCX,Machine Learning Engineer,Machine Learning Engineer,92,PASS,1.0,1.0,,,Same as ml_engineer plus personal details; must score identically
+ml_engineer_personal,PDF,Machine Learning Engineer,Machine Learning Engineer,92,PASS,1.0,1.0,,,Same as ml_engineer plus personal details; must score identically
+layout_nested_table,DOCX,Machine Learning Engineer,Machine Learning Engineer,54,PASS,1.0,1.0,,,Skills sit in a table inside a table cell
+layout_textbox,DOCX,Data Analyst,Data Analyst,64,PASS,1.0,1.0,,,Skills sit in a text box

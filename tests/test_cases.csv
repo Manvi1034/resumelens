@@ -1,0 +1,13 @@
+resume,expected_top_role,true_skills,notes
+data_analyst,Data Analyst,Python|SQL|Excel|Power BI|Tableau|Jupyter|Pandas|NumPy|Matplotlib|Statistics|Data Visualization|MySQL,Clear data analyst profile
+ml_engineer,Machine Learning Engineer,Python|scikit-learn|Pandas|NumPy|MLflow|FastAPI|Docker|Git|AWS|Machine Learning|CI/CD|GitHub,Clear ML engineer profile
+nlp_engineer,NLP Engineer,Python|NLP|NLTK|spaCy|Transformers|Hugging Face|Deep Learning|PyTorch|Git|LLM,Clear NLP profile
+cv_engineer,Computer Vision Engineer,Python|OpenCV|YOLO|CNN|Image Processing|PyTorch|NumPy|Matplotlib|Linux|Deep Learning,Clear computer vision profile
+fullstack,Full Stack Developer,JavaScript|HTML|CSS|React|Node.js|REST API|SQL|MongoDB|Git|Docker,Clear full stack profile
+ai_engineer,AI Engineer,Python|LLM|RAG|LangChain|Prompt Engineering|Vector Databases|Deep Learning|FastAPI|REST API|Git,Clear AI engineer profile
+fresher_sparse,ANY,Python|HTML,Very few skills; every score should stay low
+tricky_wording,ANY,Python|JavaScript|SQL|scikit-learn|Machine Learning|Deep Learning|Data Visualization,Hyphenated skill names; the words excel and react used as ordinary verbs; negation (not Java)
+keyword_stuffed,ANY,Python|SQL|Pandas|NumPy|Machine Learning|scikit-learn|Deep Learning|TensorFlow|PyTorch|NLP|OpenCV|Docker|AWS|Git|React|Node.js,Only a pile of repeated keywords; extraction is right but the score is easy to inflate
+ml_engineer_personal,Machine Learning Engineer,Python|scikit-learn|Pandas|NumPy|MLflow|FastAPI|Docker|Git|AWS|Machine Learning|CI/CD|GitHub,Same as ml_engineer plus personal details; must score identically
+layout_nested_table,Machine Learning Engineer,Python|Docker|Git|FastAPI|Machine Learning,Skills sit in a table inside a table cell
+layout_textbox,Data Analyst,Python|SQL|Pandas|Power BI|Excel,Skills sit in a text box
